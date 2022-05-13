@@ -58,7 +58,7 @@ def DrawSpectrum(wav_data,framerate):
 # Main
 archivoAudio='audioulaw.wav';
 sound = AudioSegment.from_wav(archivoAudio)
-#play(sound)
+play(sound)
 wavJson=Read_WAV(archivoAudio)
 with open('datos.json','w') as archivo:
     json.dump(wavJson, archivo)
