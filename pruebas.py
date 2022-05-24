@@ -1,5 +1,4 @@
 from random import sample
-from turtle import color
 import wave
 import numpy as np
 import sys
@@ -34,7 +33,7 @@ print("*** raw ***", type(raw))
 
 raw = np.frombuffer(raw, dtype=np.int16)
 print("*** rawBufer ***", type(raw))
-for i in range(5):
+for i in range(5)
     print(raw[i])
 print("tipo raw",type(raw))
 raw3 = raw*1.0/(max(abs(raw))) 
@@ -47,7 +46,7 @@ raw4 = expansion(raw3,255)
 print("*** raw4 ***", type(raw4))
 for i in range(5):
     print(raw4[i])
-wav2.writeframes(raw)
+wav2.writeframes(raw4)
 sampleRate = wav.getframerate()
 
 if wav.getnchannels() ==2:
