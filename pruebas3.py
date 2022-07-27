@@ -34,8 +34,8 @@ def redondear(x):
         i=i+1
     return y
 
-archivoWav="audioulaw.wav"
-archivoWav2="archivoWav2.wav"
+archivoWav="alainComprimido.wav"
+archivoWav2="alainDescomprimido.wav"
 wav=wave.open(archivoWav,"r")
 numchannel=wav.getnchannels()
 samplewidth=wav.getsampwidth()

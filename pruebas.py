@@ -33,7 +33,7 @@ print("*** raw ***", type(raw))
 
 raw = np.frombuffer(raw, dtype=np.int16)
 print("*** rawBufer ***", type(raw))
-for i in range(5)
+for i in range(5):
     print(raw[i])
 print("tipo raw",type(raw))
 raw3 = raw*1.0/(max(abs(raw))) 
